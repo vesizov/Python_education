@@ -1,0 +1,38 @@
+.blue-with-border{
+	border: 2px dashed white;
+	background: blue;
+	color: white;
+
+	
+	height: 100px;
+	width: 200px;
+	
+	position: fixed;
+	top: 50px;
+	left: 100px;
+	z-index: 2;
+	opacity: 0.7;
+	
+}
+#second-paragraph{
+	background: red;
+	color: yellow;
+	/*margin: 50px;*/
+	
+	/*margin-left: 30px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 150px;*/
+
+/*	margin: 50px 100px 150px 30px;/*
+*/
+
+
+	height: 10000px;
+	width: 200px;
+	position: absolute;
+	/*top: 50px;
+	left: 100px;*/
+	z-index: 1;
+	
+}

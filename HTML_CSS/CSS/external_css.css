@@ -1,0 +1,28 @@
+h1 {
+			font-size: 150px;
+			color: blueviolet;
+		}
+h2 {
+			color: blueviolet;
+
+}
+p {
+	color: rgba(24, 224, 194, 0.7);
+	font-size: 40px;
+}
+
+li a {
+	background: yellowgreen;
+}
+
+h3 + ul {
+	color: red;
+}
+
+a[href="https://www.w3schools.com/css/css_intro.asp"] {
+	background: green;
+}
+
+ul:nth-of-type(2){
+	background: blue;
+}

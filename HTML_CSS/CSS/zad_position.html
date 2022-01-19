@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Position</title>
+	<style type="text/css">
+		#first{
+			background: cyan;
+			color: darkred;
+			position: absolute;
+			top: 20px;
+			width: 100%;
+			left: 20px;
+			z-index: 2;
+			opacity: 0.7;
+		}
+		#second{
+			background: olive;
+			color: darkred;
+			position: relative;
+			top: -10px;
+			left: 100px;
+			z-index: 1;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="first">
+		<p>First</p>
+		<p>Abzac</p>
+	</div>
+	<div id="second">
+		<p>Second</p>
+		<p>Abzac</p>
+	</div>
+</body>
+</html>
